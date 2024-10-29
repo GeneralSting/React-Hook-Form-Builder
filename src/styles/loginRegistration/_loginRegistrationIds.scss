@@ -1,0 +1,17 @@
+@use "../const/colors";
+@use "../const/mixins";
+
+#login-rooted-title {
+  @include mixins.rooted-title;
+  &::before {
+    background: colors.$asparagus;
+  }
+}
+
+// Apply mixin to #registration-rooted-title
+#registration-rooted-title {
+  @include mixins.rooted-title;
+  &::before {
+    background: colors.$blastOffBronze;
+  }
+}

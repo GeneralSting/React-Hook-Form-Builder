@@ -1,0 +1,70 @@
+{
+  "metaData": {
+    "name": "English",
+    "localeName": "English",
+    "abbr": "en",
+    "localeAbbr": "en"
+  },
+  "languages": {
+    "en": "English",
+    "hr": "Croatian"
+  },
+  "themes": {
+    "light": "Light Theme",
+    "lightIncreased": "Light Theme Increased",
+    "dark": "Dark Theme",
+    "solarized": "Solarized Theme"
+  },
+  "app": {
+    "name": "Rooted",
+    "motto": "in the land, networked for progress"
+  },
+  "header": {
+    "title": "Rooted",
+    "options": {
+      "title": "Change options",
+      "themeLabel": "Theme",
+      "languageLabel": "Language"
+    }
+  },
+  "main": {
+    "standard": {
+      "loading": "Fetching data..."
+    },
+    "form": {
+      "required": "Input is required!",
+      "responseError": "Error!",
+
+      "emailLabel": "Email",
+      "emailAriaLabel": "Input for email",
+      "emailPlaceholder": "will.smith@gmail.com",
+      "emailError": "Entered email is invalid!",
+
+      "passwordLabel": "Password",
+      "passwordAriaLabel": "Input for password",
+      "passwordPlaceholder": "6+ characters",
+      "passwordError": "Password must have at least six characters",
+      "passwordErrorMax": "Password cannot have more than 24 characters",
+      "passwordIconAria": "Toggle password visibility",
+
+      "fullNameLabel": "Full name",
+      "fullNameAriaLabel": "Input for user full name",
+      "fullNamePlaceholder": "Will Smith"
+
+    },
+    "login": {
+      "title": "Sign into your account",
+      "confirmBtn": "Sign in",
+      "forgotPass": "Forgot password?",
+      "registrationLink": "Create your account"
+    },
+    "registration": {
+      "title": "Create a new account",
+      "confirmBtn": "Create",
+      "loginLink": "Sign in"
+    }
+  },
+  "footer": {
+    "message": "© Copyright Rooted"
+  }
+}

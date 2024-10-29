@@ -1,0 +1,90 @@
+@use "./const/colors";
+@use "./const/sizes";
+@use "./layout/layoutIds";
+@use "./loginRegistration/loginRegistrationClasses";
+@use "./loginRegistration/loginRegistrationIds";
+@use "./form/formClasses";
+
+#root {
+  height: 100vh;
+}
+
+#main-container {
+  background-image: linear-gradient(
+      to bottom,
+      colors.$blackTrans08,
+      colors.$blackTrans02,
+      colors.$blackTrans08
+    ),
+    url(../images/bg/forest-top.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-container-darker {
+  background-image: linear-gradient(
+      to bottom,
+      colors.$blackTrans08,
+      colors.$blackTrans08
+    ),
+    url(../images/bg/forest-top.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.animated-svg-container {
+  margin: auto;
+}
+
+.elipse-btn {
+  width: 100%;
+  border-radius: sizes.$elipseRadiusBtn !important;
+}
+
+.primary-bg {
+  background-color: colors.$asparagus !important;
+
+  &:hover {
+    background-color: colors.$asparagusHover !important;
+  }
+}
+
+.secondary-bg {
+  background-color: colors.$blastOffBronze !important;
+
+  &:hover {
+    background-color: colors.$blastOffBronzeHover !important;
+  }
+}
+
+.primary-link-btn {
+  color: colors.$asparagus;
+}
+
+.primary-link-btn {
+  color: unset !important;
+  border-color: colors.$asparagus !important;
+
+  &:hover {
+    background-color: colors.$asparagus02 !important;
+  }
+}
+
+.secondary-link-btn {
+  color: unset !important;
+  border-color: colors.$blastOffBronze !important;
+  text-transform: none !important;
+
+  &:hover {
+    background-color: colors.$blastOffBronze02 !important;
+  }
+}
+
+.svg-woodland {
+  fill: colors.$asparagus;
+}

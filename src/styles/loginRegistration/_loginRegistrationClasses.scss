@@ -1,0 +1,52 @@
+@use "../const/colors";
+@use "../const/sizes";
+
+.login-mui-paper {
+  border-radius: sizes.$paperRadius !important;
+  border: 2px solid colors.$blastOffBronze;
+  -webkit-box-shadow: 7px 6px 21px 0px colors.$blastOffBronze05 !important;
+  -moz-box-shadow: 7px 6px 21px 0px colors.$blastOffBronze05 !important;
+  box-shadow: 7px 6px 21px 0px colors.$blastOffBronze05 !important;
+}
+
+.registration-mui-paper {
+  border-radius: sizes.$paperRadius !important;
+  border: 2px solid colors.$asparagus;
+  -webkit-box-shadow: 7px 6px 21px 0px colors.$asparagus05 !important;
+  -moz-box-shadow: 7px 6px 21px 0px colors.$asparagus05 !important;
+  box-shadow: 7px 6px 21px 0px colors.$asparagus05 !important;
+}
+
+.login-paper-icon {
+  border-radius: sizes.$paperRadius;
+  background-color: colors.$asparagus02;
+}
+
+.registration-paper-icon {
+  border-radius: sizes.$paperRadius;
+  background-color: colors.$blastOffBronze02;
+}
+
+.olive-thrill {
+  fill: colors.$oliveThrill;
+}
+
+.triassic {
+  fill: colors.$triassic;
+}
+
+.egyptian-jaspen {
+  fill: colors.$egyptianJaspen;
+}
+
+.carol-purr {
+  fill: colors.$carolPurr;
+}
+
+.young-bud {
+  fill: colors.$youngBud;
+}
+
+.cork {
+  fill: colors.$cork;
+}

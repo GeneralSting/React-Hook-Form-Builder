@@ -1,0 +1,10 @@
+@use "../const/keyFrames";
+
+.form-error-alert {
+  padding-top: 0 !important;
+  background-color: transparent !important;
+}
+
+.animation-fade-in {
+  animation: fadeIn 0.5s linear;
+}

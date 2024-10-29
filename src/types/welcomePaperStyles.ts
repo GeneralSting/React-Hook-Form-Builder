@@ -1,0 +1,1 @@
+export type WelcomePaperStyles = "login" | "registration";

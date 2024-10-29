@@ -1,0 +1,69 @@
+{
+  "metaData": {
+    "name": "Croatian",
+    "localeName": "Hrvatski",
+    "abbr": "cro",
+    "localeAbbr": "hr"
+  },
+  "languages": {
+    "en": "Engleski",
+    "hr": "Hrvatski"
+  },
+  "themes": {
+    "light": "Svjetla Tema",
+    "lightIncreased": "Svjetla Tema Povećano",
+    "dark": "Tamna Tema",
+    "solarized": "Solarizirana Tema"
+  },
+  "app": {
+    "name": "Rooted",
+    "motto": "u zemlji, umreženi za napredak"
+  },
+  "header": {
+    "title": "Rooted",
+    "options": {
+      "title": "Izmjena opcija",
+      "themeLabel": "Tema",
+      "languageLabel": "Jezik"
+    }
+  },
+  "main": {
+    "standard": {
+      "loading": "Dohvaćanje podataka..."
+    },
+    "form": {
+      "required": "Polje je potreno ispuniti!",
+      "responseError": "Greška!",
+
+      "emailLabel": "Email",
+      "emailAriaLabel": "Unos za elektroničku poštu",
+      "emailPlaceholder": "ivan.horvat@gmail.com",
+      "emailError": "Uneseni email nije ispravan!",
+
+      "passwordLabel": "Lozinka",
+      "passwordAriaLabel": "Unos za lozinku",
+      "passwordPlaceholder": "6+ znakova",
+      "passwordError": "Lozinka mora sadržavati barem šest znakova",
+      "passwordErrorMax": "Lozinka ne može sadržavati više od 24 znaka",
+      "passwordIconAria": "Izmjena vidljivosti unesene lozinke",
+
+      "fullNameLabel": "Ime i prezime",
+      "fullNameAriaLabel": "Unos za korisnikovo ime i prezime",
+      "fullNamePlaceholder": "Ivan Horvat"
+    },
+    "login": {
+      "title": "Prijava u Vaš račun",
+      "confirmBtn": "Prijava",
+      "forgotPass": "Zaboravili ste lozinku?",
+      "registrationLink": "Stvorite račun"
+    },
+    "registration": {
+      "title": "Napravite novi račun",
+      "confirmBtn": "Napravi",
+      "loginLink": "Prijava"
+    }
+  },
+  "footer": {
+    "message": "© Autorsko pravo Rooted"
+  }
+}
